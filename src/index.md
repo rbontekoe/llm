@@ -61,6 +61,8 @@ services:
     stdin_open: true
 ```
 
+I hope you appreciate this approach. 
+
 Rob Bontekoe
 
 !!! info "This course is licensed under the MIT License."
