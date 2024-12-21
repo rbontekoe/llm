@@ -1,6 +1,6 @@
 # Install Docker
 
-**UNDER DEVELOPMENT 3**
+**UNDER DEVELOPMENT**
 
 To install Docker follow the next steps:
 
