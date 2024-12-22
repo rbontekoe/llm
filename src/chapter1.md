@@ -6,7 +6,7 @@ To install Docker follow the next steps:
 
 |Stap        | Actie      |
 |:---------- | :---------- |
-| 1 | Open a new terminal: Ctrl+Shift+T. |
+| 1 | Open a new terminal.|
 | 2 | Update the software list by typing: `sudo apt update`. |
 | 3 | Remove older versions of Docker by typing: `sudo apt remove docker docker-engine docker.io`. |
 | 4 | Install Docker: `curl -sSL https://get.docker.com \| sh`. |
