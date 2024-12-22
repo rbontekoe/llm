@@ -1,5 +1,0 @@
-# References
-
-## YouTube
-
-## Diversen

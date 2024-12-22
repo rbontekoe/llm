@@ -1,3 +1,0 @@
-# Docker commands
-
-**UNDER DEVELOPMENT**
