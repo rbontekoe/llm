@@ -16,10 +16,9 @@
 | 8 | Restart the container and enter it. |
 | 9 | Double click on: llm_engineering. |
 | 10 | Open the Week1 folder. |
-| 11 | Select: Day1.ipynb. |
-| 12 | Click on the Upload-Button, this action will make a copy of the file, so you save it apart. |
+| 11 | Duble click on: Day1.ipynb. Now you can work with this file |
 ||
 
 My experience is that I don't have to enter the Jupter-key again! 
 
-We are not finished yet. To work with ChatGPT we first have to put the API-key in a file named: `.env`.
+We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
