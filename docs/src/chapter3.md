@@ -6,4 +6,18 @@
 
 |Step        | Action      |
 |:---------- | :---------- |
-| 1 | Enter the container: docker exec -it 
+| 1 | Enter the container (use autocomplete button Tab, after typing test): `docker exec -it test_jupyter-notebook_1 bash' |
+| 2 | Get the key by copying the key to the clipboard after highliting the kay after 'token=': jupyter server list |
+| 3 | Enter the container: `localhost:8888`. |
+| 4 | Past the key in the first field and press Enter. |
+| 5 | Leave ther container. |
+| 6 | Goto ~/Test/notebooks: `cd ~/Test/notebooks`. |
+| 7 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
+| 8 | Restart the container and enter it. |
+| 9 | Double click on: llm_engineering. |
+| 10 | Open the Week1 folder. |
+| 11 | Select: Day1.ipynb. |
+| 12 | Click on the Upload-Button, this action will make a copy of the file, so you save it apart. |
+||
+
+My experience is that I do't have to enter the Jupter-key again! 
