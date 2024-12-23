@@ -20,6 +20,6 @@
 | 12 | Click on the Upload-Button, this action will make a copy of the file, so you save it apart. |
 ||
 
-My experience is that I do't have to enter the Jupter-key again! 
+My experience is that I don't have to enter the Jupter-key again! 
 
 We are not finished yet. To work with ChatGPT we first have to put the API-key in a file named: `.env`.
