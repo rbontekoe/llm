@@ -4,7 +4,7 @@
 
 To install Docker follow the next steps:
 
-|Stap        | Actie      |
+|Step        | Action      |
 |:---------- | :---------- |
 | 1 | Open a new terminal.|
 | 2 | Update the software list by typing: `sudo apt update`. |
