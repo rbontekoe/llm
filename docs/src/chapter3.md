@@ -6,20 +6,21 @@
 
 |Step        | Action      |
 |:---------- | :---------- |
-| 1 | Enter the container (use autocomplete button Tab, after typing test): `docker exec -it test_jupyter-notebook_1 bash` |
-| 2 | Get the key by copying the key to the clipboard after highliting the key after `token=': jupyter server list`. |
-| 3 | Enter the container: `localhost:8888`. |
-| 4 | Past the key in the first field and press Enter. |
-| 5 | Leave ther container: `Ctrl+D` |
-| 6 | Goto ~/Test/notebooks: `cd ~/Test/notebooks`. |
-| 7 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
-| 8 | Restart the container and enter it. |
-| 9 | Double click on: llm_engineering. |
-| 10 | Open the Week1 folder. |
-| 11 | Duble click on: Day1.ipynb. Now you can work with this file |
+| 1 | Start a container: `docker start test_jupyter-notebook`. |
+| 2 | Enter the container (use autocomplete button Tab, after typing test): `docker exec -it test_jupyter-notebook_1 bash` |
+| 3 | Get the key by copying the key to the clipboard after highliting the key after `token=': jupyter server list`. |
+| 4 | Enter the container: `localhost:8888`. |
+| 5 | Past the key in the first field and press Enter. |
+| 6 | Leave ther container: `Ctrl+D` |
+| 7 | Goto ~/Test/notebooks: `cd ~/Test/notebooks`. |
+| 8 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
+| 9 | Restart the container and enter it. |
+| 10 | Double click on: llm_engineering. |
+| 11 | Open the Week1 folder. |
+| 12 | Duble click on: Day1.ipynb. Now you can work with this file |
 ||
 
-My experience is that I don't have to enter the Jupter-key again! 
+My experience is that I only have to enter the Jupter-key once!
 
 We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
 
