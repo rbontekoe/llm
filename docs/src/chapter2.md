@@ -47,7 +47,7 @@ To install MiniConda container follow the next steps:
 | 7 | Paste the text on clipboard into nano: `Ctrl+Shift+V`. |
 | 8 | Save the file: `Ctrl+O`. |
 | 9 | Exit nano: `Ctrl+X`. |
-| 10 | Create the container: `docker-compose -f compose.yml -d`. |
+| 10 | Create the container being still in the ~/Test directory: `docker-compose -f compose.yml -d`. |
 ||
 
 In the next chapter you will learn how to achieve the Jupyter API-key you need to login to the container and make use of Jupyter.
