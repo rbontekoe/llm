@@ -22,3 +22,12 @@
 My experience is that I don't have to enter the Jupter-key again! 
 
 We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
+
+## Some Docker commands
+| Command      | Comment |
+| :---------- |  :---------- |
+| docker container ls | list al runniing containers. |
+| docker container ls -a | List all the containers, also not running. |
+| docker container rm test_jupyter-notebook_1 | Delete a container. |
+| docker container rm ef6f974a579f | Delete a container by its id. |
+| docker image ls | List all repositories (images). |
