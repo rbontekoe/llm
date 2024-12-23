@@ -21,3 +21,5 @@
 ||
 
 My experience is that I do't have to enter the Jupter-key again! 
+
+We are not finished yet. To work with ChatGPT we first have to put the API-key in a file named: `.env`.
