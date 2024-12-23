@@ -10,7 +10,7 @@
 | 2 | Get the key by copying the key to the clipboard after highliting the key after `token=': jupyter server list`. |
 | 3 | Enter the container: `localhost:8888`. |
 | 4 | Past the key in the first field and press Enter. |
-| 5 | Leave ther container. |
+| 5 | Leave ther container: `Ctrl+D` |
 | 6 | Goto ~/Test/notebooks: `cd ~/Test/notebooks`. |
 | 7 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
 | 8 | Restart the container and enter it. |
