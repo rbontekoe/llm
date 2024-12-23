@@ -6,8 +6,8 @@
 
 |Step        | Action      |
 |:---------- | :---------- |
-| 1 | Enter the container (use autocomplete button Tab, after typing test): `docker exec -it test_jupyter-notebook_1 bash' |
-| 2 | Get the key by copying the key to the clipboard after highliting the kay after 'token=': jupyter server list |
+| 1 | Enter the container (use autocomplete button Tab, after typing test): `docker exec -it test_jupyter-notebook_1 bash` |
+| 2 | Get the key by copying the key to the clipboard after highliting the key after `token=': jupyter server list`. |
 | 3 | Enter the container: `localhost:8888`. |
 | 4 | Past the key in the first field and press Enter. |
 | 5 | Leave ther container. |
