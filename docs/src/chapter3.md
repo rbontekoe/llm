@@ -6,7 +6,7 @@
 
 |Step        | Action      |
 |:---------- | :---------- |
-| 1 | Start a container: `docker start test_jupyter-notebook`. |
+| 1 | Start a container, make use of autocompletion with the tab-button: `docker start test_jupyter-notebook`. |
 | 2 | Enter the container (use autocomplete button Tab, after typing test): `docker exec -it test_jupyter-notebook_1 bash` |
 | 3 | Get the key by copying the key to the clipboard after highliting the key after `token=': jupyter server list`. |
 | 4 | Enter the container: `localhost:8888`. |
