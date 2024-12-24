@@ -1,8 +1,21 @@
 # Install the MiniConda container
 
-*In this chapter you will learn how te create a container with MiniConda*
+*In this chapter you will learn how te create a container with MiniConda with a `.yml` file*
 
 **UNDER DEVELOPMENT**
+
+## Content
+
+```@contents
+Pages = ["chapter2.md"]
+```
+## Prerequistits
+
+A PC or laptop running Ubuntu 22.04 is required.
+
+## What you will do.
+
+Step 1: Install the MiniConda container
 
 ## compose.yml
 
@@ -40,7 +53,7 @@ To install MiniConda container follow the next steps:
 |:---------- | :---------- |
 | 1 | Open a new terminal.|
 | 2 | Update the software list by typing: `sudo apt update`. |
-| 3 | Create a subdirectory `LLMs`: `makedir ~/Test`. |
+| 3 | Create a subdirectory `Test`: `makedir ~/Test`. |
 | 4 | Move to Test: `cd ~/Test`. |
 | 5 | Copy the content of compose.yml to the clipboard by clicking on the copy symbol (at the righthand top) under the file compose.yml . |
 | 6 | Create the the file by typing: `nano compose.yml`. |

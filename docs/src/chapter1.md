@@ -1,6 +1,22 @@
 # Install Docker
 
+*I use docker mainly because it gives me a cleaner environment and less trouble.*
+
 **UNDER DEVELOPMENT**
+
+## Content
+
+```@contents
+Pages = ["chapter1.md"]
+```
+
+## Prerequistits
+
+A PC or laptop running Ubuntu 22.04 with Git installed is required.
+
+Step 1: Install Docker
+
+## Step 1: Install Docker
 
 To install Docker follow the next steps:
 
