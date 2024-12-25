@@ -16,23 +16,61 @@ A PC or laptop running Ubuntu 22.04 with Git installed is required.
 
 ## What you will do.
 
-Step 1: Create a directory ~/Test_Ed, where you clone Ed's repository.
+Step 1: Create a directory ~/Test, where you create the file `compose.yml`.
 
-Step 2: Create a directory ~/Test, where you create the file `compose.yml`.
+Step 2: Create a directory ~/Test_Ed, where you clone Ed's repository.
 
-## Step 1: Create a directory ~/Test_Ed, where you clone Ed's repository.
+## compose.yml
 
-You will need a copy of Ed Donner's repository. with the notebook file. The notebook file can be uploaded to the MiniConda container and, so you can work with the notebooks.
+```
+version: "3.9" # Use the latest version of the Docker Compose file format
+
+services:
+  jupyter-notebook:
+    image: continuumio/miniconda3
+    ports:
+      - "8888:8888"
+    command: 
+      - /bin/bash
+      - "-c"
+      - |
+        conda install jupyter -y --quiet && \
+        mkdir -p /opt/notebooks && \
+        jupyter notebook \
+          --notebook-dir=/opt/notebooks \
+          --ip='*' \
+          --port=8888 \
+          --no-browser \
+          --allow-root
+    volumes:
+      - ./notebooks:/opt/notebooks 
+    tty: true
+    stdin_open: true
+```
+
+## Step 1: Create a directory ~/Test, where you create the file `compose.yml`.
+
+Docker will use the `comose.yml` file to create the MiniConda container. You can access this containeer with your browser on port 8888.
 
 |Step        | Action      |
 |:---------- | :---------- |
-| 1 | Create the folder Test_Ed: `mkdir Test_Ed`. |
-| 2 | Enter the folder: cd Test_Ed: `cd Test_Ed`. |
-| 3 | 
+| 1 | Create `~/Test`: `mkdir ~/Test` |
+| 2 | Goto the directory: `cd ~/Test` |
+| 3 | Create the file: `nano compose.yml` |
+| 4 | Go to the file compose.yml and click on the copy-symbol at the right-hand corner to copy the content to the clipboard. | 
+| 5 | Paste the content into the file: `Ctrl+Shift+V`. |
+| 6 | Create the container: `docker-compose -f compose.yml -d`. |
+| 7 | Display the name of the container: `docker container ls`.
+| 8 | Enter the container to get Jupyter's token: `docker exec -it <name of the container> bash` |
+| 9 | Display te token: `jupyter server list`. |
+| 10 | Save the token somewhere you can retrieve it. |
+| 11 | Start the container, so you can retrieve it with your browser: `localhost:8888`. |
+| 12 | Enter the token in the first field and press the Enter-button. |
+| 13 | Leave the browser. |
 
-## Step 2: Create a directory ~/Test, where you create the file `compose.yml`.
+## Step 2: Create a directory ~/Test, and clone Ed Donner's repo: `mkdir Test_Ed`.
 
-Docker will use the `comose.yml` file to create the MiniConda container. You access this containeer with your browser on port 8888.
+You will need a copy of Ed Donner's repository. with the notebook file. The notebook file can be uploaded to the MiniConda container and, so you can work with the notebooks.
 
 |Step        | Action      |
 |:---------- | :---------- |
@@ -42,7 +80,7 @@ Docker will use the `comose.yml` file to create the MiniConda container. You acc
 | 4 | Enter the container: `localhost:8888`. |
 | 5 | Paste the key in the first field and press Enter. |
 | 6 | Leave ther container: `Ctrl+D` |
-| 7 | Goto ~/Test/notebooks: `cd ~/Test/notebooks`. |
+| 7 | Goto `~/Test/notebooks`: `cd ~/Test/notebooks`. |
 | 8 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
 | 9 | Restart the container and enter it. |
 | 10 | Double click on: llm_engineering. |

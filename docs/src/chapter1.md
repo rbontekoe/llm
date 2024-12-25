@@ -18,7 +18,7 @@ A PC or laptop running Ubuntu 22.04 is required.
 
 Step 1: Install Docker
 
-## Step 1: Install Docker
+## Install Docker
 
 To install Docker follow the next steps:
 
