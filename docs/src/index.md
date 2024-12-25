@@ -7,6 +7,12 @@
 !!! info
     Look at Blog for the latest remarks!
 
+**Content**
+
+```@contents
+Pages = ["index.md"]
+```
+
 ## Introduction
 
 My name is Rob Bontekoe and I am attendig Ed Donner's Udemy course [LLM Engineering: Master AI & Large Language Models (LLMs)](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models).

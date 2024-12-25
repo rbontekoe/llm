@@ -4,14 +4,14 @@
 
 **UNDER DEVELOPMENT**
 
-## Content
+**Content**
 
 ```@contents
 Pages = ["chapter2.md"]
 ```
-## Prerequistits
+## Prerequisites
 
-A PC or laptop running Ubuntu 22.04 is required.
+A PC or laptop running Ubuntu 22.04 with Docker installed is required.
 
 ## What you will do.
 

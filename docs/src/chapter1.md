@@ -4,15 +4,15 @@
 
 **UNDER DEVELOPMENT**
 
-## Content
+**Content**
 
 ```@contents
 Pages = ["chapter1.md"]
 ```
 
-## Prerequistits
+## Prerequisites
 
-A PC or laptop running Ubuntu 22.04 with Git installed is required.
+A PC or laptop running Ubuntu 22.04 is required.
 
 Step 1: Install Docker
 
