@@ -14,6 +14,8 @@ Pages = ["chapter1.md"]
 
 A PC or laptop running Ubuntu 22.04 is required.
 
+## What you will do.
+
 Step 1: Install Docker
 
 ## Step 1: Install Docker
