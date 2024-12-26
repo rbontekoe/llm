@@ -20,7 +20,9 @@ Step 1: Create a directory ~/Test, where you create the file `compose.yml`.
 
 Step 2: Create a directory ~/Test_Ed, where you clone Ed's repository.
 
-Step 3: Open a Notebook.
+Step 3: Get the Jupyter API-key
+
+Step 4: Open a Notebook.
 
 ## compose.yml
 
@@ -72,7 +74,7 @@ Docker will use the `comose.yml` file to create the MiniConda container. You can
 
 ## Step 2: Create a directory `~/Test_Ed`, and clone Ed Donner's repo.
 
-You will need a copy of Ed Donner's repository. with the notebook file. The notebook file can be uploaded to the MiniConda container and, so you can work with the notebooks.
+You will need a copy of Ed Donner's repository, with the notebook files. A notebook file can be uploaded to the MiniConda container and, so you can work with the notebooks.
 
 |Step        | Action      |
 |:---------- | :---------- |
@@ -82,14 +84,25 @@ You will need a copy of Ed Donner's repository. with the notebook file. The note
 | 4 | Enter the container: `localhost:8888`. |
 | 5 | Paste the key in the first field and press Enter. |
 | 6 | Leave ther container: `Ctrl+D` |
-| 7 | Goto `~/Test/notebooks`: `cd ~/Test/notebooks`. |
+| 7 | Goto `~/Test_Ed`: `cd ~/Test_Ed`. |
 | 8 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
 ||
 
-
 *When we start the MiniConda contaier we will first retrieve the Jupyter API-key. Then we login the the key we will try to open a Notebook from ~/Test_Ed directory.*
 
-## Step 3: Open a Notebook.
+## Step 3: Get the Jupyter API-key
+
+You need the token the first time you login. Yo retrieve the token to copy the part after 'token=', with the command: `jupyther server list`.
+
+|Step        | Action      |
+|:---------- | :---------- |
+| 1 | Start a container, make use of autocompletion with the tab-button: `docker start test_jupyter-notebook`. |
+| 2 | Enter the container: `test_jupyter-notebook`. |
+| 3 | Type: `jupyther server list`. |
+| 4 | Copy and save the token in a save place. |
+||
+
+## Step 4: Open a Notebook.
 
 |Step        | Action      |
 |:---------- | :---------- |
