@@ -20,6 +20,8 @@ Step 1: Create a directory ~/Test, where you create the file `compose.yml`.
 
 Step 2: Create a directory ~/Test_Ed, where you clone Ed's repository.
 
+Step 3: Open a Notebook.
+
 ## compose.yml
 
 ```
@@ -68,7 +70,7 @@ Docker will use the `comose.yml` file to create the MiniConda container. You can
 | 12 | Enter the token in the first field and press the Enter-button. |
 | 13 | Leave the browser. |
 
-## Step 2: Create a directory ~/Test, and clone Ed Donner's repo: `mkdir Test_Ed`.
+## Step 2: Create a directory ~/Test_Ed, and clone Ed Donner's repo: `mkdir Test_Ed`.
 
 You will need a copy of Ed Donner's repository. with the notebook file. The notebook file can be uploaded to the MiniConda container and, so you can work with the notebooks.
 
@@ -89,11 +91,29 @@ You will need a copy of Ed Donner's repository. with the notebook file. The note
 ||
 
 
-*When we start the MiniConda contaier we wilf first retrieve the Jupyter API-key. When we login the the key we will see the content of the ~/Test directory. A jupyter directtory called notebooks will be created. *
+*When we start the MiniConda contaier we will first retrieve the Jupyter API-key. Then we login the the key we will try to open a Notebook from ~/Test_Ed directory.*
+
+## Step 3: Open a Notebook.
+
+|Step        | Action      |
+|:---------- | :---------- |
+| 1 | Start a container, make use of autocompletion with the tab-button: `docker start test_jupyter-notebook`. |
+| 2 | Connect to the container using the browser: `localhost:8888`. |
+| 3 | Click on the Upload-button. |
+| 4 | Navigate to the `Test_Ed` folder. |
+| 5 | Open the folder, and open the `llm_engineering` folder. |
+| 6 | Open the `week1` folder. |
+| 7 | Select the `day1.ipnd` file. The screen changed. |
+| 8 | Open the file by double clicking. |
+| 9 | Now you can work with the Notebook file. |
+| 10 | Load the other Notebooks of week1. When you look at `~/Test/notebooks` you will see the uploaded files, which you can save with: `Ctrl+S`. |
+||
+
+## Summary
 
 
 
-My experience is that I only have to enter the Jupter-key once!
+My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overviw of the Notebooks I uploaded. **I am not finished yet with this chapter!**
 
 We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
 
