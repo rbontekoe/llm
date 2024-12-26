@@ -109,10 +109,7 @@ You will need a copy of Ed Donner's repository. with the notebook file. The note
 | 10 | Load the other Notebooks of week1. When you look at `~/Test/notebooks` you will see the uploaded files, which you can save with: `Ctrl+S`. |
 ||
 
-
 My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overviw of the Notebooks I uploaded. **I am not finished yet with this chapter!**
-
-We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
 
 ## Some Docker commands
 | Command      | Comment |
@@ -123,5 +120,9 @@ We are not finished yet. To work with ChatGPT we first have to put its API-key i
 | docker container rm ef6f974a579f | Delete a container by its id. |
 | docker image ls | List all repositories (images). |
 | docker exec -it <container name or id> /bin/bash | Enter a container. |
+||
 
 ## Summary
+
+
+We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
