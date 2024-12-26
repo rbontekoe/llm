@@ -84,7 +84,6 @@ You will need a copy of Ed Donner's repository. with the notebook file. The note
 | 6 | Leave ther container: `Ctrl+D` |
 | 7 | Goto `~/Test/notebooks`: `cd ~/Test/notebooks`. |
 | 8 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
-| 9 | Restart the container and enter the container. |
 ||
 
 
