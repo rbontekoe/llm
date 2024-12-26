@@ -70,7 +70,7 @@ Docker will use the `comose.yml` file to create the MiniConda container. You can
 | 12 | Enter the token in the first field and press the Enter-button. |
 | 13 | Leave the browser. |
 
-## Step 2: Create a directory ~/Test_Ed, and clone Ed Donner's repo: `mkdir Test_Ed`.
+## Step 2: Create a directory `~/Test_Ed`, and clone Ed Donner's repo.
 
 You will need a copy of Ed Donner's repository. with the notebook file. The notebook file can be uploaded to the MiniConda container and, so you can work with the notebooks.
 
@@ -84,10 +84,7 @@ You will need a copy of Ed Donner's repository. with the notebook file. The note
 | 6 | Leave ther container: `Ctrl+D` |
 | 7 | Goto `~/Test/notebooks`: `cd ~/Test/notebooks`. |
 | 8 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
-| 9 | Restart the container and enter it. |
-| 10 | Double click on: llm_engineering. |
-| 11 | Open the Week1 folder. |
-| 12 | Duble click on: Day1.ipynb. Now you can work with this file |
+| 9 | Restart the container and enter the container. |
 ||
 
 
