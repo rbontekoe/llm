@@ -118,9 +118,10 @@ We are not finished yet. To work with ChatGPT we first have to put its API-key i
 | Command      | Comment |
 | :---------- |  :---------- |
 | docker container ls | list al running (active) containers. |
-| docker container ls -a | List all the containers, also not running. |
+| docker container ls -a | List all the containers (also the not running ones). In the first column shows the id's of the containers. |
 | docker container rm test_jupyter-notebook_1 | Delete a container. |
 | docker container rm ef6f974a579f | Delete a container by its id. |
 | docker image ls | List all repositories (images). |
+| docker exec -it <container name or id> /bin/bash | Enter a container. |
 
 ## Summary
