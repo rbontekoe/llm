@@ -64,13 +64,8 @@ Docker will use the `comose.yml` file to create the MiniConda container. You can
 | 4 | Go to the file compose.yml and click on the copy-symbol at the right-hand corner to copy the content to the clipboard. | 
 | 5 | Paste the content into the file: `Ctrl+Shift+V`. |
 | 6 | Create the container: `docker-compose -f compose.yml -d`. |
-| 7 | Display the name of the container: `docker container ls`.
-| 8 | Enter the container to get Jupyter's token: `docker exec -it <name of the container> bash` |
-| 9 | Display te token: `jupyter server list`. |
-| 10 | Save the token somewhere you can retrieve it. |
-| 11 | Start the container, so you can retrieve it with your browser: `localhost:8888`. |
-| 12 | Enter the token in the first field and press the Enter-button. |
-| 13 | Leave the browser. |
+| 7 | Display the name of the container: `docker container ls`. |
+||
 
 ## Step 2: Create a directory `~/Test_Ed`, and clone Ed Donner's repo.
 
