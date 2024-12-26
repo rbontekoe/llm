@@ -122,7 +122,8 @@ My experience is that I only have to enter the Jupter-key once! When I connect t
 | docker exec -it <container name or id> /bin/bash | Enter a container. |
 ||
 
+We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
+
 ## Summary
 
-
-We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
+The chapter describes the process of starting a MiniConda container, specifically for working with Jupyter notebooks. It begins by stating that users must start the MiniConda container each time they want to work, but highlights that the Jupyter API key needs to be retrieved only during the initial login. Upon logging in with the key, users will gain access to the contents of the ~/Test/notebooks directory.
