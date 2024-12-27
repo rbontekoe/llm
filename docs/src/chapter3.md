@@ -69,21 +69,14 @@ Docker will use the `comose.yml` file to create the MiniConda container. You can
 
 ## Step 2: Create a directory `~/Test_Ed`, and clone Ed Donner's repo.
 
-You will need a copy of Ed Donner's repository, with the notebook files. A notebook file can be uploaded to the MiniConda container and, so you can work with the notebooks.
+You will need a copy of Ed Donner's repository, with the notebook files. A notebook file can be uploaded to the MiniConda container.
 
 |Step        | Action      |
 |:---------- | :---------- |
-| 1 | Start a container, make use of autocompletion with the tab-button: `docker start test_jupyter-notebook`. |
-| 2 | Enter the container (use autocomplete button Tab, after typing test): `docker exec -it test_jupyter-notebook_1 bash` |
-| 3 | Get the key by copying the key to the clipboard after highliting the key after `token=': jupyter server list`. |
-| 4 | Enter the container: `localhost:8888`. |
-| 5 | Paste the key in the first field and press Enter. |
-| 6 | Leave ther container: `Ctrl+D` |
-| 7 | Goto `~/Test_Ed`: `cd ~/Test_Ed`. |
-| 8 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
+| 1 | Create the directory: `mkdir ~/test_Ed`. |
+| 2 | Goto the directory: `cd ~/Test_Ed`. |
+| 3 | Clone Ed's repository: `git clone https://github.com/ed-donner/llm_engineering.git`. |
 ||
-
-*When we start the MiniConda contaier we will first retrieve the Jupyter API-key. Then we login the the key we will try to open a Notebook from ~/Test_Ed directory.*
 
 ## Step 3: Get the Jupyter API-key
 
@@ -101,16 +94,16 @@ You need the token the first time you login. Yo retrieve the token to copy the p
 
 |Step        | Action      |
 |:---------- | :---------- |
-| 1 | Start a container, make use of autocompletion with the tab-button: `docker start test_jupyter-notebook`. |
+| 1 | Start a container, make use of autocompletion with the tab-button as soon as you type `test`: `docker start test_jupyter-notebook`. |
 | 2 | Connect to the container using the browser: `localhost:8888`. |
 | 3 | Click on the Upload-button. |
 | 4 | Navigate to the `Test_Ed` folder. |
 | 5 | Open the folder, and open the `llm_engineering` folder. |
 | 6 | Open the `week1` folder. |
-| 7 | Select the `day1.ipnd` file. The screen changed. |
+| 7 | Select the `day1.ipynd` file. The screen changed. |
 | 8 | Open the file by double clicking. |
 | 9 | Now you can work with the Notebook file. |
-| 10 | Load the other Notebooks of week1. When you look at `~/Test/notebooks` you will see the uploaded files, which you can save with: `Ctrl+S`. |
+| 10 | Load the other Notebooks of week1. When you look at `~/Test/notebooks` you will see the uploaded files, which you can save them with: `Ctrl+S`. |
 ||
 
 My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overviw of the Notebooks I uploaded. **I am not finished yet with this chapter!**
@@ -126,7 +119,7 @@ My experience is that I only have to enter the Jupter-key once! When I connect t
 | docker exec -it <container name or id> /bin/bash | Enter a container. |
 ||
 
-We are not finished yet. To work with ChatGPT we first have to put its API-key in a file named: `.env`.
+We are not finished yet. To work with ChatGPT you first have to put its API-key in a file named: `.env`.
 
 ## Summary
 
