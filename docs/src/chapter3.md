@@ -84,10 +84,9 @@ You need the token the first time you login. Yo retrieve the token to copy the p
 
 |Step        | Action      |
 |:---------- | :---------- |
-| 1 | Start a container, make use of autocompletion with the tab-button: `docker start test_jupyter-notebook`. |
-| 2 | Enter the container: `test_jupyter-notebook`. |
-| 3 | Type: `jupyther server list`. |
-| 4 | Copy and save the token in a save place. |
+| 1 | Start a container, make use of autocompletion with the tab-button after typing test: `docker start test_jupyter-notebook`. |
+| 3 | Type: `jupyther server list`. ``\\``![fig_3_3.png](assets/fig_3_3.png)|
+| 4 | Copy (Ctrl+Shift+C) and save the token in a save place. |
 ||
 
 ## Step 4: Open a Notebook.
@@ -98,12 +97,12 @@ You need the token the first time you login. Yo retrieve the token to copy the p
 | 2 | Connect to the container using the browser: `localhost:8888`. |
 | 3 | Click on the Upload-button. |
 | 4 | Navigate to the `Test_Ed` folder. |
-| 5 | Open the folder, and open the `llm_engineering` folder. |
+| 5 | Open the folder, and open the `llm_engineering` folder. ``\\``![fig_3_2](assets/fig_3_2.png)|
 | 6 | Open the `week1` folder. |
 | 7 | Select the `day1.ipynd` file. The screen changed. |
 | 8 | Open the file by double clicking. |
 | 9 | Now you can work with the Notebook file. |
-| 10 | Load the other Notebooks of week1. When you look at `~/Test/notebooks` you will see the uploaded files, which you can save them with: `Ctrl+S`. |
+| 10 | Load the other Notebooks of week1. When you look at `~/Test/notebooks` you will see the uploaded files, which you can save them with: `Ctrl+S`.``\\``![fig_](assets/fig_3_1.png) |
 ||
 
 My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overviw of the Notebooks I uploaded. **I am not finished yet with this chapter!**
