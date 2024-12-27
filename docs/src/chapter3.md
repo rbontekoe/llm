@@ -85,7 +85,7 @@ You need the token the first time you login. Yo retrieve the token to copy the p
 |Step        | Action      |
 |:---------- | :---------- |
 | 1 | Start a container, make use of autocompletion with the tab-button after typing test: `docker start test_jupyter-notebook`. |
-| 3 | Type: `jupyther server list`. ``\\``![fig_3_3.png](assets/fig_3_3.png)|
+| 3 | Type: `jupyter server list`. ``\\``![fig_3_3.png](assets/fig_3_3.png)|
 | 4 | Copy (Ctrl+Shift+C) and save the token in a save place. |
 ||
 
