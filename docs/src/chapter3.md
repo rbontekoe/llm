@@ -102,7 +102,7 @@ You need the token the first time you login. Yo retrieve the token to copy the p
 | 7 | Select the `day1.ipynd` file. The screen changed. |
 | 8 | Open the file by double clicking. |
 | 9 | Now you can work with the Notebook file. |
-| 10 | Load the other Notebooks of week1. When you look at `~/Test/notebooks` you will see the uploaded files, which you can save them with: `Ctrl+S`.``\\``![fig_](assets/fig_3_1.png) |
+| 10 | Load the other Notebooks of week1. When you look at `~/Test/notebooks` you will see the uploaded files, which you can save them with: `Ctrl+S`.  ``\\``![fig_](assets/fig_3_1.png)``\\``*What you see in the browser* |
 ||
 
 My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overviw of the Notebooks I uploaded. **I am not finished yet with this chapter!**
