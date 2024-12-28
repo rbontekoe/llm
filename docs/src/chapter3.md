@@ -96,7 +96,7 @@ You need the token the first time you login. Yo retrieve the token to copy the p
 | 1 | Start a container, make use of autocompletion with the tab-button as soon as you type `test`: `docker start test_jupyter-notebook`. |
 | 2 | Connect to the container using the browser: `localhost:8888`. |
 | 3 | Click on the Upload-button. ``\\``![fig_3_5](assets/fig_3_5.png) |
-| 4 | Navigate to the `Test_Ed` folder, and open the folder: `Double click` ``\\``![fig_3_6](assets/fig_3_6.png) |
+| 4 | Select the `Test_Ed` folder, and open it: `Double click`. ``\\``![fig_3_6](assets/fig_3_6.png) |
 | 5 | Open the `llm_engineering` folder. ``\\``![fig_3_2](assets/fig_3_2.png) |
 | 6 | Open the `week1` folder. ``\\``![fig_3_4](assets/fig_3_4.png) |
 | 7 | Select the `day1.ipynd` file. Load the file: `double click`, and save the file: `Ctrl+S`. |
