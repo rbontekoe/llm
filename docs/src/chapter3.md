@@ -99,7 +99,7 @@ You need the token the first time you login. Yo retrieve the token to copy the p
 | 4 | Select the `Test_Ed` folder, and open it: `Double click`. ``\\``![fig_3_6](assets/fig_3_6.png) |
 | 5 | Open the `llm_engineering` folder. ``\\``![fig_3_2](assets/fig_3_2.png) |
 | 6 | Open the `week1` folder. ``\\``![fig_3_4](assets/fig_3_4.png) |
-| 7 | Select the `day1.ipynd` file. Load the file: `double click`, and save the file: `Ctrl+S`. |
+| 7 | Select the `day1.ipynb` file. Load the file: `double click`, and save the file: `Ctrl+S`. |
 | 8 | Now you can work with the Notebook file. |
 | 10 | Load the other Notebooks of week1. When you look at `ls ~/Test/notebooks` you will see the uploaded files.  Actually, the same as you see in the browser. ``\\``![fig_](assets/fig_3_1.png)``\\``*What you will see in the browser* |
 ||
