@@ -96,12 +96,12 @@ You need the token the first time you login. Yo retrieve the token to copy the p
 | 1 | Start a container, make use of autocompletion with the tab-button as soon as you type `test`: `docker start test_jupyter-notebook`. |
 | 2 | Connect to the container using the browser: `localhost:8888`. |
 | 3 | Click on the Upload-button. ``\\``![fig_3_5](assets/fig_3_5.png) |
-| 4 | Navigate to the `Test_Ed` folder. ``\\``![fig_3_6](assets/fig_3_6.png) |
-| 5 | Open the folder, and open the `llm_engineering` folder. ``\\``![fig_3_2](assets/fig_3_2.png) |
+| 4 | Navigate to the `Test_Ed` folder, and open the folder:: `Double click` ``\\``![fig_3_6](assets/fig_3_6.png) |
+| 5 | Open the `llm_engineering` folder. ``\\``![fig_3_2](assets/fig_3_2.png) |
 | 6 | Open the `week1` folder. ``\\``![fig_3_4](assets/fig_3_4.png) |
-| 7 | Select the `day1.ipynd` file. Open the file by double clicking. |
+| 7 | Select the `day1.ipynd` file. Load the file: `double click`, and save the file: `Ctrl+S`. |
 | 8 | Now you can work with the Notebook file. |
-| 10 | Load the other Notebooks of week1. When you look at `ls ~/Test/notebooks` you will see the uploaded files, which you can save: `Ctrl+S`. Actually, the same as you see in the browser. ``\\``![fig_](assets/fig_3_1.png)``\\``*What you see in the browser* |
+| 10 | Load the other Notebooks of week1. When you look at `ls ~/Test/notebooks` you will see the uploaded files.  Actually, the same as you see in the browser. ``\\``![fig_](assets/fig_3_1.png)``\\``*What you will see in the browser* |
 ||
 
 My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overview of the Notebooks I uploaded.
