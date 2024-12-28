@@ -80,7 +80,7 @@ You will need a copy of Ed Donner's repository, with the notebook files. A noteb
 
 ## Step 3: Get the Jupyter API-key
 
-You need the token the first time you login. Yo retrieve the token to copy the part after 'token=', with the command: `jupyther server list`.
+You need the token the first time you login. To retrieve the token to copy the part after 'token=', with the command: `jupyther server list`.
 
 |Step        | Action      |
 |:---------- | :---------- |
