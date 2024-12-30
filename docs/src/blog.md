@@ -2,6 +2,10 @@
 
 ## 2024
 
+### 12/29/2024 - Assistence from Ed
+
+I ran into a bit of a breakdown. Ed came up with the idea to use “pip install -r requirements.txt”. I copied his “requirements.txt” to “~/Test/notebooks”. Then I went to the container with “docker exec” and entered the Ed's suggestion. It ran at once, but took a while. I still need to test everything!
+
 ### 12/25/2024 Finished chapter 3
 
 I have finished chapter 3. Next step is to find whether the hidden file `.env` can be located on my laptop in the `Test\notebooks` directory.

@@ -14,7 +14,7 @@ Pages = ["chapter3.md"]
 
 A PC or laptop running Ubuntu 22.04 with Git installed is required.
 
-## What you will do.
+## What tou will do
 
 Step 1: Create a directory ~/Test, where you create the file `compose.yml`.
 
@@ -23,6 +23,7 @@ Step 2: Create a directory ~/Test_Ed, where you clone Ed's repository.
 Step 3: Get the Jupyter API-key
 
 Step 4: Open a Notebook.
+
 
 ## compose.yml
 
@@ -90,7 +91,7 @@ You need the token the first time you login. To retrieve the token to copy the p
 | 4 | Copy (Ctrl+Shift+C) and save the token in a save place. |
 | 5 | You also have to add the dotenv module: `pip3 install python-dotenv`. |
 | 6 | And the OpenAI module: `pip3 install OpenAI`. |
-| 7 | Close: `Ctrl+D`. |
+| 7 | Exit the container: `Ctrl+D`. |
 ||
 
 ## Step 4: Open a Notebook.
