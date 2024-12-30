@@ -88,6 +88,9 @@ You need the token the first time you login. To retrieve the token to copy the p
 | 2 | Open a terminal and enter the container by typing: `docker exec -it test_jupyter-notebook_1 bash`. |
 | 3 | Type: `jupyter server list`. ``\\``![fig_3_3.png](assets/fig_3_3.png)|
 | 4 | Copy (Ctrl+Shift+C) and save the token in a save place. |
+| 5 | You also have to add the dotenv module: `pip3 install python-dotenv`. |
+| 6 | And the OpenAI module: `pip3 install OpenAI`. |
+| 7 | Close: `Ctrl+D`. |
 ||
 
 ## Step 4: Open a Notebook.
