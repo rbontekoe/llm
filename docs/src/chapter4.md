@@ -16,4 +16,4 @@ Click on the link to get the Open-AI API-key: [Video 11](https://www.udemy.com/c
 
 ## Summary
 
-This guide, explains how to obtain a ChatGPT API key.  It requires an Ubuntu 22.04 PC/laptop with Docker installed. The sole step involves watching "Video 11" (linked within the document) to learn the process.
+This guide explains how to obtain a ChatGPT API key.  It requires an Ubuntu 22.04 PC/laptop with Docker installed. The single step is to watch Ed Donner's video (Video 11, linked in the document) for instructions on retrieving the key.
