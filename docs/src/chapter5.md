@@ -14,7 +14,7 @@ A PC or laptop running Ubuntu 22.04 with Nano or any other kind of text-editor i
 
 Step 1: Create the `.env` file in `~\Test\notebooks`.  
 
-## Create the `.env` file in `~\Test\notebooks`
+## Create the `.env` file
 
 The idea is very simple. Create a `.env` file with tour text-editor and create the key description to retrieve the key with the Python code in the cell.
 
