@@ -1,5 +1,11 @@
 # Blog
 
+## 2025
+
+### 01/30/20125 - Finished chapter 4, 5, and 6
+
+I trust this guide will provide further assistance.
+
 ## 2024
 
 ### 12/29/2024 - Assistence from Ed
