@@ -1,9 +1,6 @@
 # Create the .env file for API keys
 
-**UNDER DEVELOPMENT**
-
-*The `.env` file where you store the API-keys for your LLMs is located in the `~/Test/notebooks` directory.*
-
+*The `.env` file is where you store the API-keys for your LLMs is located in the `~/Test/notebooks` directory.*
 
 ```@contents
 Pages = ["chapter5.md"]
