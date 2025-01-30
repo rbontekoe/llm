@@ -2,8 +2,6 @@
 
 *I use docker mainly because it gives me a cleaner environment and less trouble.*
 
-**UNDER DEVELOPMENT**
-
 **Content**
 
 ```@contents
@@ -32,4 +30,7 @@ To install Docker follow the next steps:
 | 6 | Controle the version of [Docker Engine](https://docs.docker.com/engine/release-notes/): `sudo docker version`. Must be versie 20.10.22 of higher. |
 | 7 | Restart your computer by tying: `sudo reboot`. |
 ||
+
+## Samenvatting
+
 
