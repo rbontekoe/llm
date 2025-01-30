@@ -30,3 +30,5 @@ The idea is very simple. Create a `.env` file with tour text-editor and create t
 | 4 | Leave Nano: `Ctrl+X`. |
 | 5 | Check the content of the file: `cat .env`. |
 ||
+
+## Summary
