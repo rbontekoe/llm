@@ -2,8 +2,6 @@
 
 *In this chapter you will learn how te create a container with MiniConda with a `.yml` file*
 
-**UNDER DEVELOPMENT**
-
 **Content**
 
 ```@contents
@@ -64,3 +62,7 @@ To install MiniConda container follow the next steps:
 ||
 
 In the next chapter you will learn how to achieve the Jupyter API-key you need to login to the container and make use of Jupyter.
+
+## Samenvatting
+
+This chapter details how to install a MiniConda container using a compose.yml file.  It requires an Ubuntu 22.04 system with Docker installed. The process involves creating a ~/Test directory, creating and populating the compose.yml file (content provided), and then using the docker-compose command to build and run the container in detached mode.  The next chapter will cover retrieving the Jupyter API key.
