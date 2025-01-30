@@ -8,7 +8,7 @@ A PC or laptop running Ubuntu 22.04 with Docker installed is required.
 
 ## What you will do.
 
-1. Follow Ed's video to get the API-key: [video](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/learn/lecture/46867735#overview)
+1. Follow Ed's video to get the API-key
 2. Create the `.env` file
 3. Add the key to the `.env` file.
 
