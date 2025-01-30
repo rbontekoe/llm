@@ -1,8 +1,6 @@
 # LLMs
 
-**UNDER DEVELOPMENT**
-
-*This course is a supplement to Ed Donner's course on Udemy: 'LLM Engineering: Master AI & Large Language Models (LLMs)' for developers whose work with Ubuntu 22.04'.*
+*This course supplements Ed Donner's Udemy course, "LLM Engineering: Master AI & Large Language Models (LLMs)," for developers working with Ubuntu 22.04'.*
 
 !!! info
     Look at Blog for the latest remarks!
