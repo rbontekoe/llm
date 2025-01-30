@@ -31,6 +31,6 @@ To install Docker follow the next steps:
 | 7 | Restart your computer by tying: `sudo reboot`. |
 ||
 
-## Samenvatting
+## Summary
 
 This guide explains how to install Docker on Ubuntu 22.04.  It involves updating the system's package list, removing any existing Docker installations, installing Docker using a provided command, adding the user to the docker group, verifying the Docker version (must be 20.10.22 or higher), and rebooting the system. The author prefers Docker for a cleaner development environment.
