@@ -29,3 +29,5 @@ The idea is very simple. Create a `.env` file with tour text-editor and create t
 ||
 
 ## Summary
+
+This guide describes how to create a .env file in the ~/Test/notebooks directory to store API keys for Large Language Models (LLMs).  It requires an Ubuntu 22.04 PC/laptop with a text editor (Nano is recommended). The process involves navigating to the directory, creating the .env file using Nano, adding the API key (e.g., OPENAIAPIKEY='<your_key>'), saving, exiting, and verifying the file's contents.
