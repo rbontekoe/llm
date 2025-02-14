@@ -111,7 +111,7 @@ You need the token the first time you login. To retrieve the token to copy the p
 
 My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overview of the Notebooks I uploaded.
 
-#### Run conda to update packages
+## Run conda to update packages
 
 |Step        | Action      |
 |:---------- | :---------- |
@@ -127,7 +127,7 @@ My experience is that I only have to enter the Jupter-key once! When I connect t
 | 10 | Leave Nano: `Ctrl+X` |
 | 11 | Open the container: `docker exec -it test_jupyter-notebook_1 bash` |
 | 12 | Goto the /opt/notebooks folder: `cd /opt/notebooks` |
-| 13 | Display the files: `ls` ``\\``![fig_](assets/fig_3_7.png)
+| 13 | Display the files: `ls` ``\\``![fig 3.7](assets/fig_3_7.png)
 | 14 | Check whether the file environment.xml exists. |
 | 15 | Update the Anaconda environment: `conda install environment.xml` |
 | 16 | Activeer de omgeving: `conda activate llms`. (base) is replaced by {llms} |
