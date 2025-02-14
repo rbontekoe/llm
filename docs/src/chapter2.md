@@ -22,6 +22,8 @@ Step 3: Get the Jupyter API-key
 
 Step 4: Open a Notebook.
 
+Step 5: Run conda to update packages.
+
 
 ## compose.yml
 
@@ -108,6 +110,34 @@ You need the token the first time you login. To retrieve the token to copy the p
 ||
 
 My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overview of the Notebooks I uploaded.
+
+#### Run conda to update packages
+
+|Step        | Action      |
+|:---------- | :---------- |
+| 1 | Goto the /Test_Ed/ folder: `cd ~/Test_Ed`. |
+| 2 | Goto the llm_engineering folder: `cd llm_engineering`. |
+| 3 | Show the content of the file environment: `cat environment.yml` |
+| 4 | highlight the content and copy it to the clipboard: `Ctl+Shift+C` |
+| 5 | Goto the /Test/notebooks folder: `cd ~\Test\notebooks` |
+| 6 | Create a file environment.yml: `sudo touch environment.yml` |
+| 7 | Start Nano with the file: `sudo nano environment.yml` |
+| 8 | Paste clipboard into the file: `Ctrl+Shift+V` |
+| 9 | Save the file: `Ctrl+O` |
+| 10 | Leave Nano: `Ctrl+X` |
+| 11 | Open the container: `docker exec -it test_jupyter-notebook_1 bash` |
+| 12 | Goto the /opt/notebooks folder: `cd /opt/notebooks` |
+| 13 | Display the files: `ls` ``\\``![fig_](assets/fig_3_7.png)
+| 14 | Check whether the file environment.xml exists. |
+| 15 | Update the Anaconda environment: `conda install environment.xml` |
+| 16 | Activeer de omgeving: `conda activate llms`. (base) is replaced by {llms} |
+||
+
+!!! info "Important!"
+    You should alway activate the environment with `conda activate llms` after you start the container!
+
+
+
 
 ## Some Docker commands
 | Command      | Comment |
