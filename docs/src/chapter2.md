@@ -1,4 +1,4 @@
-# Create abd start the MiniConda container
+# Create and start the MiniConda container
 
 *Unfortunately, every time you will have to start the MiniConda container. However, the first time you need to retrieve the Jupyter API-key. When we login the the key we will see the content of the ~/Test/notebooks directory. The jupyter directtory called notebooks will be created for you.*
 

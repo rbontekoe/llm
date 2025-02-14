@@ -3,7 +3,7 @@
 *Watch Ed Donner video to retrieve ChatGPT's API-key* 
 
 ```@contents
-Pages = ["chapter3.md"]
+Pages = ["chapter2.md"]
 ```
 
 ## Prerequisites
