@@ -114,7 +114,7 @@ My experience is that I only have to enter the Jupter-key once! When I connect t
 | :---------- |  :---------- |
 | docker container ls | list al running (active) containers. |
 | docker container ls -a | List all the containers (also the not running ones). In the first column shows the id's of the containers. |
-| docker container rm test_jupyter-notebook_1 | Delete a container. |
+| docker container rm test\_jupyter\_notebook_1 | Delete a container. |
 | docker container rm ef6f974a579f | Delete a container by its id. |
 | docker image ls | List all repositories (images). |
 | docker exec -it <container name or id> /bin/bash | Enter a container. |
