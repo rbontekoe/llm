@@ -136,6 +136,8 @@ My experience is that I only have to enter the Jupter-key once! When I connect t
 !!! info "Important!"
     You should alway activate the environment with `conda activate llms` after you start the container!
 
+    Start the container with: `docker exec -it test_jupyter-notebook_1 bash`.
+
 
 
 
