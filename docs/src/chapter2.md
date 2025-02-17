@@ -114,6 +114,8 @@ You need the token the first time you login. To retrieve the token to copy the p
 
 ## Step 5 - Run conda to update packages
 
+A special file, called environment.yml, contains the packages you need for Ed Donner's course. Because Ed frequently updates his course, you will need to repeat these steps periodically.
+
 |Step        | Action      |
 |:---------- | :---------- |
 | 1 | Goto the /Test_Ed/ folder: `cd ~/Test_Ed`. |
