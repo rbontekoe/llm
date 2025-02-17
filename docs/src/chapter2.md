@@ -111,7 +111,7 @@ You need the token the first time you login. To retrieve the token to copy the p
 
 My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overview of the Notebooks I uploaded.
 
-## Run conda to update packages
+## Step 5 - Run conda to update packages
 
 |Step        | Action      |
 |:---------- | :---------- |
