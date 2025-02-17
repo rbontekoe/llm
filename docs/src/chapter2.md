@@ -109,7 +109,7 @@ You need the token the first time you login. To retrieve the token to copy the p
 | 10 | Load the other Notebooks of week1. When you look at `ls ~/Test/notebooks` you will see the uploaded files.  Actually, the same as you see in the browser. ``\\``![fig_](assets/fig_3_1.png)``\\``*What you will see in the browser* |
 ||
 
-My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overview of the Notebooks I uploaded. Coorection: I noticed that after a while you have retrieve a new API key to enter the container.
+My experience is that I only have to enter the Jupter-key once! When I connect to the container I allways get an overview of the Notebooks I uploaded. Correction: I noticed that after a while you have retrieve a new API key to enter the container.
 
 ## Step 5 - Run conda to update packages
 
