@@ -132,8 +132,8 @@ A special file, called environment.yml, contains the packages you need for Ed Do
 | 12 | Goto the /opt/notebooks folder: `cd /opt/notebooks` |
 | 13 | Display the files: `ls` ``\\``![fig 3.7](assets/fig_3_7.png)
 | 14 | Check whether the file environment.xml exists. |
-| 15 | Update the Anaconda environment: `conda install environment.xml` |
-| 16 | Activeer de omgeving: `conda activate llms`. (base) is replaced by {llms} |
+| 15 | Update the Anaconda environment: `conda install environment.yml` |
+| 16 | Activeer de omgeving: `conda activate llms`. (base) is replaced by (llms) |
 ||
 
 !!! info "Important!"
