@@ -121,7 +121,7 @@ A special file, called environment.yml, contains the packages you need for Ed Do
 | 1 | Goto the /Test_Ed/ folder: `cd ~/Test_Ed`. |
 | 2 | Goto the llm_engineering folder: `cd llm_engineering`. |
 | 3 | Show the content of the file environment: `cat environment.yml` |
-| 4 | highlight the content and copy it to the clipboard: `Ctl+Shift+C` |
+| 4 | Highlight the content and copy it to the clipboard: `Ctl+Shift+C` |
 | 5 | Goto the /Test/notebooks folder: `cd ~\Test\notebooks` |
 | 6 | Create a file environment.yml: `sudo touch environment.yml` |
 | 7 | Start Nano with the file: `sudo nano environment.yml` |
