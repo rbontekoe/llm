@@ -139,7 +139,7 @@ A special file, called environment.yml, contains the packages you need for Ed Do
 !!! info "Important!"
     You should alway activate the environment with `conda activate llms` after you start the container!
 
-    Start the container with: `docker exec -it test_jupyter-notebook_1 bash`, then type: `conda activate llms`.
+    Enter the container with: `docker exec -it test_jupyter-notebook_1 bash`, then type: `conda activate llms`.
 
 
 
