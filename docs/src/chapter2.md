@@ -12,7 +12,7 @@ Pages = ["chapter2.md"]
 
 A PC or laptop running Ubuntu 22.04 with Git installed is required.
 
-## What tou will do
+## What you will do
 
 Step 1: Create a directory ~/Test, where you create the file `compose.yml`.
 
