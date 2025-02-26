@@ -2,7 +2,29 @@
 
 ## 2025
 
-### 01/30/20125 - Finished chapter 4, 5, and 6
+### 02/26/2025 - IMPORTANT: changes to docker-compose commands
+
+Creating a container with the command 'docker-compose -f compose.yml -d' no longer works. I asked Gemini for help: Have the docker-compose commands changed recently? Gemini replied with:
+
+Yes, there have been recent changes to the Docker Compose commands. Here are some key points:
+
+#### Docker Compose V2:
+- Docker Compose V2 is now integrated into the Docker CLI. This means that instead of using docker-compose, you now use docker compose. This is a significant change in syntax.
+- This integration brings several benefits, including improved performance and a more consistent user experience.
+
+#### Release-updates:
+- Docker Compose is constantly undergoing updates with bug fixes, performance improvements, and new features. So, it is important to keep an eye on the release notes for the most recent changes.
+- You can find the latest release notes on the Docker website.
+
+#### Important Changes:
+- There are changes in how Docker Compose handles networks, volumes, and build processes.
+- There have also been additions regarding the use of Docker Buildx Bake.
+
+To stay up to date with the most recent changes, I recommend consulting the official Docker documentation and release notes. See also: [Docker](https://docs.docker.com/compose/)
+
+I will make the changes to the course material.
+
+### 01/30/2025 - Finished chapter 4, 5, and 6
 
 I trust this guide will provide further assistance.
 
